@@ -1,4 +1,10 @@
-urlisp
-======
+* Urlisp
+  This is a sparse implementation of Lisp in PHP. It includes macros,
+  in the form of FEXPRs (functions that do not evaluate their
+  arguments), and a small set of pre-defined functions. A REPL web
+  page is also included for testing purposes.
 
-Sparse lisp implementation in PHP
+* Usage
+  Fire up a PHP-enabled web server and point it at this
+  directory. Point your web browser at =/repl.php= and watch the
+  magic!
